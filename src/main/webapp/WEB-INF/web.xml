@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+
+    <display-name>Catering</display-name>
+
+    <welcome-file-list>
+        <welcome-file>signup</welcome-file>
+    </welcome-file-list>
+
+    <!-- Signup Controller Servlet -->
+    <servlet>
+        <servlet-name>SignupController</servlet-name>
+        <servlet-class>com.example.cydaily_new.SignupController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignupController</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <!-- Login Controller Servlet -->
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>com.example.cydaily_new.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <!-- Home Controller Servlet -->
+    <servlet>
+        <servlet-name>HomeController</servlet-name>
+        <servlet-class>com.example.cydaily_new.HomepageController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HomeController</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.example.cydaily_new.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+</web-app>
