@@ -223,8 +223,8 @@
 <body>
 
 <div class="container">
-    <h1>Create Your Account</h1>
-    <p class="tagline">Join our community and start planning your journey</p>
+    <h1>Create your Hacker Account!</h1>
+    <p class="tagline">Join our community and start learning Cyber in a fun way!</p>
 
     <div class="card">
         <!-- Form for signup -->
@@ -242,8 +242,8 @@
             <div class="form-group">
                 <label for="role">Account Type</label>
                 <select id="role" name="role">
-                    <option value="customer">Customer</option>
-                    <option value="planner">Event Planner</option>
+                    <option value="h4ck3r">h4ck3r</option>
+                    <option value="4dm1n">4dm1n</option>
                 </select>
             </div>
 

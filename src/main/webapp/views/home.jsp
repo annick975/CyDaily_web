@@ -355,7 +355,7 @@
 <div class="header">
     <div class="logo">
         <div class="logo-icon">🛡️</div>
-        <div class="logo-text">CyberGuardian</div>
+        <div class="logo-text">CyDaily</div>
     </div>
     <div class="user-info">
         <div class="user-details">
@@ -371,7 +371,7 @@
 
 <div class="container">
     <div class="page-title">
-        <h1>Cybersecurity Training Dashboard</h1>
+        <h1>Welcome to CyDaily!</h1>
         <p>Enhance your security skills through interactive missions and challenges</p>
     </div>
 
